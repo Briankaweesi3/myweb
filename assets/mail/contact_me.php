@@ -1,4 +1,12 @@
 <?php
+
+Email sending method: SMTP;
+SMTP authentication: enabled;
+SMTP username: craftedug@gmail.com;
+SMTP password: 0787499613;
+SMTP hostname: smtp.gmail.com;
+SMTP port: 465 with SSL on.
+
 // Check for empty fields
 if(empty($_POST['name'])      ||
    empty($_POST['email'])     ||
